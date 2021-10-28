@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img {
+    width: 130px;
+    border-radius: 70px;
+    margin: 40px auto 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #212529;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+p:hover{
+    background-color: #ffffff91;
+
+}
+
+.links {
+    text-decoration: none; 
+    color: #212529;   
+}
+
+.links:hover{
+    color: black;
+
+}
+
+.name{
+    text-decoration: none;
+    color: black;
+}
+
+.namep{
+    border: none;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.namep:hover{
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+.name:hover{
+    color: black;
+}
